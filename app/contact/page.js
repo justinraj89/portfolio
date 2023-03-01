@@ -62,7 +62,7 @@ function page() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ delay: 0.4, duration: 0.3 }}
-            className="mt-3 text-2xl lg:text-3xl text-gray text-center "
+            className="mt-4 text-2xl lg:text-3xl text-gray text-center "
           >
             Feel free to reach out!
           </motion.p>

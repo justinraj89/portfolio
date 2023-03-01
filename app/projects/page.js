@@ -23,7 +23,7 @@ function page() {
         Here are some of my projects
       </h1>
 
-      <div className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 mx-auto animate__animated animate__fadeInUp">
+      <div className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 md:grid md:grid-cols-2 mx-auto animate__animated animate__fadeInUp">
         <article className="shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
           <h2 className="text-3xl text-gray-100 font-bold text-center font-spaceMono">
             Moovie
