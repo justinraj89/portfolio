@@ -5,7 +5,7 @@ import Link from "next/link";
 function Nav() {
 
   return (
-    <div className="sticky top-0 z-10 backdrop-blur border-b-2 border-gray-800 h-16 flex justify-center md:justify-between lg:justify-between items-center">
+    <div className="sticky top-0 z-10 backdrop-blur border-b-2 border-zinc-800 h-16 flex justify-center md:justify-between lg:justify-between items-center">
       <Link
         href="/"
         className="px-4 lg:px-8 hover:cursor-pointer lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300"
