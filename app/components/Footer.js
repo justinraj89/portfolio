@@ -2,14 +2,14 @@
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { RxLinkedinLogo } from "react-icons/rx";
-import { AnimationOnScroll } from "react-animation-on-scroll";
+
 
 
 
 function Footer() {
   return (
     <div className="h-64 justify-center items-center flex flex-col">
-      <AnimationOnScroll animateIn="animate__fadeInUp">
+
         <div className="flex justify-center" id="contact">
           <a
             href="https://github.com/justinraj89" target='_blank' rel="noopener noreferrer"
@@ -30,7 +30,6 @@ function Footer() {
             <RxLinkedinLogo className="h-12 w-12" />
           </a>
         </div>
-      </AnimationOnScroll>
     </div>
   )
 }
