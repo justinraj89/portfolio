@@ -20,7 +20,7 @@ export default function Home() {
               viewport={{ once: false }}
               className="px-4"
             >
-              <h1 className="text-gray-400 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left tracking-wide">
+              <h1 className="text-gray-400 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left">
                 justin rajewski
               </h1>
             </motion.div>
