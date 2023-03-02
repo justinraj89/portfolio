@@ -53,8 +53,8 @@ export default function Home() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-90}
-            className="scroll-down lg:hover:cursor-pointer"
+            offset={-100}
+            className="scroll-down hidden md:block lg:block lg:hover:cursor-pointer"
           ></Link>
         </div>
       </div>
