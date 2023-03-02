@@ -6,7 +6,8 @@ import { Link } from "react-scroll";
 export default function Home() {
   return (
     <>
-      <div className="md:h-screen lg:h-screen">
+    <div className="lg:snap-y lg:snap-mandatory">
+    <div className="md:h-screen lg:h-screen lg:snap-start">
         <div
           className="px-4 lg:px-0 lg:grid lg:grid-cols-2 mt-6 lg:mt-12 flex flex-col"
           id="home"
@@ -58,7 +59,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="md:h-screen lg:h-screen mt-16">
+      <div className="md:h-screen lg:h-screen mt-16 lg:snap-start">
         <div
           className="lg:mt-32 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
           id="about"
@@ -118,6 +119,8 @@ export default function Home() {
         </div>
 
       </div>
+    </div>
+
 
     </>
   );

@@ -19,13 +19,13 @@ function Nav() {
       <nav className="flex">
         <Link
           href="/projects"
-          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-100 hover:text-green-300 transition ease-in-out delay-100 hover:scale-105 duration-300"
+          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-100 hover:text-gray-400 transition ease-in-out delay-100 hover:scale-105 duration-300"
         >
           Projects
         </Link>
         <Link
           href="/contact"
-          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-100 hover:text-green-300 transition ease-in-out delay-100 hover:scale-105 duration-300"
+          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-100 hover:text-gray-400 transition ease-in-out delay-100 hover:scale-105 duration-300"
         >
           Contact
         </Link>
