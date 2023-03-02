@@ -6,10 +6,10 @@ import { Link } from "react-scroll";
 export default function Home() {
   return (
     <>
-    <div className="lg:snap-y lg:snap-mandatory">
-    <div className="md:h-screen lg:h-screen lg:snap-start">
+
+    <div className="md:h-screen lg:h-screen">
         <div
-          className="px-4 lg:px-0 lg:grid lg:grid-cols-2 mt-6 lg:mt-12 flex flex-col"
+          className="px-4 lg:px-0 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
           id="home"
         >
           <div className="md:mt-12 lg:mt-36 lg:col-span-1">
@@ -45,7 +45,7 @@ export default function Home() {
             exit={{ opacity: 0 }}
             transition={{ delay: 0.7, duration: 0.8 }}
             viewport={{ once: false }}
-            className="lg:col-span-1 mt-6 lg:mt-12 flex lg:justify-end justify-center px-4"
+            className="lg:col-span-1 mt-6 lg:mt-2 flex lg:justify-end justify-center px-4"
           >
             <img src="/me.png" alt="me" className="w-64 md:w-96 md:mt-8 lg:w-96" />
           </motion.div>
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="md:h-screen lg:h-screen mt-16 lg:snap-start">
+      <div className="md:h-screen lg:h-screen mt-16">
         <div
           className="lg:mt-32 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
           id="about"
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
 
       </div>
-    </div>
+
 
 
     </>
