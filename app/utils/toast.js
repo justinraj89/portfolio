@@ -5,13 +5,13 @@ export const showToast = (type, message) => {
     case "SUCCESS":
       toast(message, {
         position: toast.POSITION.BOTTOM_RIGHT,
-        theme: 'light'
+        theme: 'dark'
       });
       break;
     case "ERROR":
       toast.error(message, {
         position: toast.POSITION.BOTTOM_RIGHT,
-        theme: 'light'
+        theme: 'dark'
       });
       break;
     default:

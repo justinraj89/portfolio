@@ -84,6 +84,7 @@ function page() {
                   name="name"
                   className="peer block w-full appearance-none border-0 border-b border-gray-100 bg-transparent py-2.5 px-0 text-sm text-gray-100 focus:border-green-300 focus:outline-none focus:ring-0"
                   placeholder=" "
+                  required
                 />
                 <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-100 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-green-300">
                   Your name
@@ -98,6 +99,7 @@ function page() {
                   name="email"
                   className="peer block w-full appearance-none border-0 border-b border-gray-100 bg-transparent py-2.5 px-0 text-sm text-gray-100 focus:border-green-300 focus:outline-none focus:ring-0"
                   placeholder=" "
+                  required
                 />
                 <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-100 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-green-300">
                   Your email
@@ -111,6 +113,7 @@ function page() {
                   rows="5"
                   className="peer block w-full appearance-none border-0 border-b border-gray-100 bg-transparent py-2.5 px-0 text-sm text-gray-100 focus:border-green-300 focus:outline-none focus:ring-0"
                   placeholder=" "
+                  required
                 ></textarea>
                 <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-100 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-green-300">
                   Your message
