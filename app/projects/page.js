@@ -19,7 +19,7 @@ import Footer from "../components/Footer";
 function page() {
   return (
     <div className="flex flex-col h-fit  pt-8 lg:pt-12 pb-8">
-      <h1 className="font-spaceMono text-gray-100 text-2xl mb-8 lg:text-4xl text-center lg:mb-8 animate__animated animate__fadeIn">
+      <h1 className="font-spaceMono text-gray-100 text-2xl mb-8 md:text-4xl lg:text-4xl text-center lg:mb-8 animate__animated animate__fadeIn">
         Here are some of my projects
       </h1>
 

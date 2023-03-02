@@ -10,7 +10,6 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      indieFlower:  'var(--indieFlower-font)',
       spaceMono: 'var(--spaceMono-font)'
     },
     extend: {

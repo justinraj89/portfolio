@@ -46,7 +46,7 @@ function page() {
 
   return (
     <>
-      <div className="flex items-center mt-8 lg:mt-24 px-6 lg:px-0">
+      <div className="flex  mt-8 md:mt-40 lg:mt-24 px-6 lg:px-0">
         <div className="mx-auto w-full max-w-lg lg:max-w-xl text-gray-100 font-spaceMono">
           <motion.h1
             initial={{ opacity: 0 }}
