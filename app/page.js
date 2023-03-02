@@ -18,10 +18,10 @@ export default function Home() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.3, duration: 0.8 }}
               viewport={{ once: false }}
-              className="px-4 "
+              className="px-4"
             >
-              <h1 className="text-gray-300 font-spaceMono text-3xl md:text-5xl lg:text-6xl font-bold text-center tracking-wide">
-                Hi! I'm Justin
+              <h1 className="text-gray-300 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left tracking-wide">
+                Justin Rajewski
               </h1>
             </motion.div>
 
