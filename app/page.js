@@ -20,8 +20,8 @@ export default function Home() {
               viewport={{ once: false }}
               className="px-4"
             >
-              <h1 className="text-gray-300 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left tracking-wide">
-                Justin Rajewski
+              <h1 className="text-gray-400 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left tracking-wide">
+                justin rajewski
               </h1>
             </motion.div>
 
@@ -31,7 +31,7 @@ export default function Home() {
               exit={{ opacity: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
               viewport={{ once: false }}
-              className="px-4 pt-4"
+              className="px-4 pt-6"
             >
               <p className="text-gray-300 text-2xl md:text-3xl lg:text-4xl font-spaceMono lg:pl-2 tracking-wide text-center md:text-center lg:text-left">
                 Los Angeles based web developer.
