@@ -94,7 +94,7 @@ export default function Home() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 1 }}
               viewport={{ once: false }}
-              className="text-xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center"
+              className="text-xl md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center"
             >
             I am a web developer with a passion for creating smooth, intutive user experiences.
               
@@ -104,7 +104,7 @@ export default function Home() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: false }}
-            className="text-xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center mb-4 lg:mb-0"
+            className="text-xl md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center mb-4 lg:mb-0"
             >
               When I'm not coding, I love drawing, hiking, making music, and skateboarding.
             </motion.p>
