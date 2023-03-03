@@ -13,19 +13,18 @@ import { GiCardAceSpades } from "react-icons/gi";
 import { SiPython } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
-import Footer from "../components/Footer";
 //=============================================
 
 function page() {
   return (
     <div className="flex flex-col h-fit  pt-8 lg:pt-12 pb-8">
-      <h1 className="font-spaceMono text-gray-100 text-2xl mb-8 md:text-4xl lg:text-4xl text-center lg:mb-8 animate__animated animate__fadeIn">
+      <h1 className="font-spaceMono text-gray-300 text-2xl mb-8 md:text-4xl lg:text-4xl text-center lg:mb-8 animate__animated animate__fadeIn">
         Here are some of my projects
       </h1>
 
       <div className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 md:grid md:grid-cols-2 mx-auto animate__animated animate__fadeInUp">
-        <article className="shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
-          <h2 className="text-3xl text-gray-100 font-bold text-center font-spaceMono">
+        <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
+          <h2 className="text-3xl font-bold text-center font-spaceMono">
             Moovie
           </h2>
           <div className="flex justify-center">
@@ -36,7 +35,7 @@ function page() {
             />
           </div>
 
-          <p className="text-gray-100 pt-4 font-spaceMono text-center">
+          <p className=" pt-4 font-spaceMono text-center">
             Moovie is a MERN stack application that allows users to create an
             account, login, and build their own custom watchlists. All movie
             data is obtained from TMDB API. JWTs used for authentication.
@@ -59,8 +58,8 @@ function page() {
           </a>
         </article>
 
-        <article className="shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
-          <h2 className="text-3xl text-gray-100 font-bold text-center font-spaceMono">
+        <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
+          <h2 className="text-3xl font-bold text-center font-spaceMono">
             Doodle-Gram
           </h2>
           <div className="flex justify-center">
@@ -70,7 +69,7 @@ function page() {
               className="w-32"
             />
           </div>
-          <p className="text-gray-100 pt-4 font-spaceMono text-center">
+          <p className="pt-4 font-spaceMono text-center">
             Doodle-Gram is an Instagram-type full stack CRUD application. Users
             can login using their Google account, browse a collection of posted
             artwork, add their own artwork, comment, edit and delete posts.
@@ -92,14 +91,14 @@ function page() {
           </a>
         </article>
 
-        <article className="shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
-          <h2 className="text-3xl text-gray-100 font-bold text-center font-spaceMono">
+        <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
+          <h2 className="text-3xl font-bold text-center font-spaceMono">
             Dictionary
           </h2>
           <div className="flex justify-center">
-            <HiOutlineBookOpen className="h-24 w-24 text-gray-100" />
+            <HiOutlineBookOpen className="h-24 w-24 text-gray-300" />
           </div>
-          <p className="text-gray-100 pt-4 font-spaceMono text-center">
+          <p className="pt-4 font-spaceMono text-center">
             Dictionary application built using Nextjs and Tailwind CSS. Word
             data is provided through 3rd party API (dictionaryapi.dev). Darkmode
             feature implemented using Next/Themes.
@@ -120,8 +119,8 @@ function page() {
           </a>
         </article>
 
-        <article className="shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
-          <h2 className="text-3xl text-gray-100 font-bold text-center font-spaceMono">
+        <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
+          <h2 className="text-3xl font-bold text-center font-spaceMono">
             React Music Player
           </h2>
           <div className="flex justify-center">
@@ -131,7 +130,7 @@ function page() {
               className="w-32"
             />
           </div>
-          <p className="text-gray-100 pt-4 font-spaceMono text-center">
+          <p className="pt-4 font-spaceMono text-center">
             Fully Responsive music player built using React. In this project I
             experimented with the Styled Components package, and learned more
             about using Audio/mp3 files in an application. I enjoy making music,
@@ -153,14 +152,14 @@ function page() {
           </a>
         </article>
 
-        <article className="shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
-          <h2 className="text-3xl text-gray-100 font-bold text-center font-spaceMono">
+        <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
+          <h2 className="text-3xl font-bold text-center font-spaceMono">
             War
           </h2>
           <div className="flex justify-center">
             <GiCardAceSpades className="h-24 w-24 text-gray-100" />
           </div>
-          <p className="text-gray-100 pt-4 font-spaceMono text-center">
+          <p className="pt-4 font-spaceMono text-center">
             This was my first project at General Assemblys SEI program. The Goal
             was to build a browser game of our choice. I decided to go with the
             classic card game "War". Application was built with vanilla
@@ -182,8 +181,8 @@ function page() {
           </a>
         </article>
 
-        <article className="shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
-          <h2 className="text-3xl text-gray-100 font-bold text-center font-spaceMono">
+        <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
+          <h2 className="text-3xl font-bold text-center font-spaceMono">
             Beastcoast Memes
           </h2>
           <div className="flex justify-center">
@@ -193,7 +192,7 @@ function page() {
               className="w-24"
             />
           </div>
-          <p className="text-gray-100 pt-4 font-spaceMono text-center">
+          <p className="pt-4 font-spaceMono text-center">
             This was a group project I worked on at General Assemblys SEI
             program. Our cohort was broken up into groups of 4 and were tasked
             with creating a full stack application using Python, Django, and
@@ -217,7 +216,6 @@ function page() {
           </a>
         </article>
       </div>
-      <Footer />
     </div>
   );
 }

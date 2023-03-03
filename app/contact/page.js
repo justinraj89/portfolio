@@ -46,8 +46,8 @@ function page() {
 
   return (
     <>
-      <div className="flex  mt-8 md:mt-40 lg:mt-24 px-6 lg:px-0">
-        <div className="mx-auto w-full max-w-lg lg:max-w-xl text-gray-100 font-spaceMono">
+      <div className="flex mt-8 md:mt-40 lg:mt-24 px-6 lg:px-0">
+        <div className="mx-auto w-full max-w-lg lg:max-w-xl text-gray-300 font-spaceMono">
           <motion.h1
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -139,12 +139,12 @@ function page() {
         transition={{ delay: 0.8, duration: 0.3 }}
         className="h-44 justify-center items-center flex flex-col"
       >
-        <div className="flex justify-center" id="contact">
+        <div className="flex justify-center text-gray-300" id="contact">
           <a
             href="https://github.com/justinraj89"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 text-gray-100 lg:transition lg:ease-in-out lg:delay-150 hover:text-green-300 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300"
+            className="px-8 lg:transition lg:ease-in-out lg:delay-150 hover:text-green-300 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300"
           >
             <FaGithub className="h-12 w-12" />
           </a>
@@ -152,7 +152,7 @@ function page() {
             onClick={() =>
               (window.location = "mailto:rajewskijustin@gmail.com")
             }
-            className="px-8 text-gray-100 lg:transition lg:ease-in-out lg:delay-150 hover:text-green-300 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300"
+            className="px-8 lg:transition lg:ease-in-out lg:delay-150 hover:text-green-300 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300"
           >
             <MdOutlineMailOutline className="h-12 w-12" />
           </button>
@@ -160,7 +160,7 @@ function page() {
             href="https://www.linkedin.com/in/justinrajewski89/"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 text-gray-100 lg:transition lg:ease-in-out lg:delay-150 hover:text-green-300  lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300"
+            className="px-8 lg:transition lg:ease-in-out lg:delay-150 hover:text-green-300  lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300"
           >
             <RxLinkedinLogo className="h-12 w-12" />
           </a>
