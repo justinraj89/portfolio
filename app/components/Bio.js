@@ -16,7 +16,7 @@ function Bio() {
         id="home"
       >
         <div className="md:mt-2 lg:mt-32 lg:col-span-1">
-          <div className="text-gray-300 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left px-4">
+          <div className="text-gray-300 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left lg:px-4">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter.typeString("justin rajewski").pauseFor(2500).start();
