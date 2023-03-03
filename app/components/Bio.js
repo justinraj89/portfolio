@@ -13,7 +13,7 @@ function Bio() {
         className="px-4 lg:px-0 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
         id="home"
       >
-        <div className="md:mt-12 lg:mt-32 lg:col-span-1">
+        <div className="md:mt-4 lg:mt-32 lg:col-span-1">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -142,7 +142,7 @@ function Bio() {
           spy={true}
           smooth={true}
           offset={-110}
-          className="scroll-down hidden md:block lg:block lg:hover:cursor-pointer"
+          className="scroll-down hidden md:hidden lg:block lg:hover:cursor-pointer"
         ></Link>
       </div>
     </div>
