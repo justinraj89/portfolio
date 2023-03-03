@@ -64,7 +64,7 @@ function page() {
             rel="noopener noreferrer"
             href="https://github.com/justinraj89/Moovie"
           >
-            <div className="text-lg text-blue-300 hover:text-blue-400 font-semibold text-center">
+            <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
               Github Repo
             </div>
           </a>
@@ -97,7 +97,7 @@ function page() {
             rel="noopener noreferrer"
             href="https://github.com/justinraj89/Doodle-Gram"
           >
-            <div className="text-lg text-blue-300 hover:text-blue-400 font-semibold text-center">
+            <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
               Github Repo
             </div>
           </a>
@@ -125,7 +125,7 @@ function page() {
             rel="noopener noreferrer"
             href="https://github.com/justinraj89/dictionary-next13"
           >
-            <div className="text-lg text-blue-300 hover:text-blue-400 font-semibold text-center">
+            <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
               Github Repo
             </div>
           </a>
@@ -158,7 +158,7 @@ function page() {
             rel="noopener noreferrer"
             href="https://github.com/justinraj89/react-music-player"
           >
-            <div className="text-lg text-blue-300 hover:text-blue-400 font-semibold text-center">
+            <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
               Github Repo
             </div>
           </a>
@@ -187,7 +187,7 @@ function page() {
             rel="noopener noreferrer"
             href="https://github.com/justinraj89/War"
           >
-            <div className="text-lg text-blue-300 hover:text-blue-400 font-semibold text-center">
+            <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
               Github Repo
             </div>
           </a>
@@ -222,7 +222,7 @@ function page() {
             rel="noopener noreferrer"
             href="https://github.com/justinraj89/Beastcoast-Memes"
           >
-            <div className="text-lg text-blue-300 hover:text-blue-400 font-semibold text-center">
+            <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
               Github Repo
             </div>
           </a>
