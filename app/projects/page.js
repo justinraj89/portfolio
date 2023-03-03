@@ -35,6 +35,7 @@ function page() {
       exit={{ opacity: 0 }}
       transition={{ delay: 0.6, duration: 0.3 }}
       className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 md:grid md:grid-cols-2 mx-auto">
+
         <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
           <h2 className="text-3xl font-bold text-center font-spaceMono">
             Moovie
@@ -227,6 +228,7 @@ function page() {
             </div>
           </a>
         </article>
+        
       </motion.div>
     </div>
   );

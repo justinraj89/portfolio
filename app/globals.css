@@ -83,7 +83,7 @@
 
 /* SCROLL ARROW */
 
-.scroll-down {
+/* .scroll-down {
   position: absolute;
   left: 50%;
   bottom: 30px;
@@ -104,7 +104,7 @@
   -webkit-animation: fade_move_down 4s ease-in-out infinite;
   -moz-animation: fade_move_down 4s ease-in-out infinite;
   animation: fade_move_down 4s ease-in-out infinite;
-}
+} */
 
 /*animated scroll arrow animation*/
 @-webkit-keyframes fade_move_down {

@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { RxLinkedinLogo } from "react-icons/rx";
+import Typewriter from "typewriter-effect";
 //========================================
 
 function Bio() {
@@ -14,24 +15,20 @@ function Bio() {
         id="home"
       >
         <div className="md:mt-2 lg:mt-32 lg:col-span-1">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            viewport={{ once: false }}
-            className="px-4"
-          >
-            <h1 className="text-gray-300 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left">
-              justin rajewski
-            </h1>
-          </motion.div>
+          <div className="text-gray-300 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left px-4">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString("justin rajewski").pauseFor(2500).start();
+              }}
+            />
+          </div>
 
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             className="px-4 pt-2 lg:pt-6"
           >
             <p className="text-gray-300 text-xl md:text-3xl lg:text-4xl font-spaceMono tracking-wide text-center md:text-center lg:text-left">
@@ -43,7 +40,7 @@ function Bio() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             className="lg:flex px-4 gap-8 pt-6 text-gray-400 justify-center lg:justify-start hidden"
           >
             <li className="lg:hover:text-gray-500">
