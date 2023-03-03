@@ -44,7 +44,7 @@ function Bio() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
             viewport={{ once: false }}
-            className="lg:flex md:flex px-4 gap-8 pt-6 text-gray-400 justify-center lg:justify-start hidden"
+            className="lg:flex px-4 gap-8 pt-6 text-gray-400 justify-center lg:justify-start hidden"
           >
             <li className="lg:hover:text-gray-500">
               <a
@@ -95,11 +95,53 @@ function Bio() {
             className="w-64 md:w-96 md:mt-8 lg:w-96"
           />
         </motion.div>
+
+        <motion.ul
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.8, duration: 0.8 }}
+          viewport={{ once: false }}
+          className="md:flex px-4 gap-12 pt-10 text-gray-400 justify-center hidden lg:hidden"
+        >
+          <li className="lg:hover:text-gray-500">
+            <a
+              href="https://github.com/justinraj89"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=""
+            >
+              <FaGithub className="h-12 w-12" />
+            </a>
+          </li>
+
+          <li className="lg:hover:text-gray-500">
+            <button
+              onClick={() =>
+                (window.location = "mailto:rajewskijustin@gmail.com")
+              }
+              className=""
+            >
+              <MdOutlineMailOutline className="h-12 w-12" />
+            </button>
+          </li>
+
+          <li className="lg:hover:text-gray-500">
+            <a
+              href="https://www.linkedin.com/in/justinrajewski89/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=""
+            >
+              <RxLinkedinLogo className="h-12 w-12" />
+            </a>
+          </li>
+        </motion.ul>
+
         <Link
           to="about"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-110}
           className="scroll-down hidden md:block lg:block lg:hover:cursor-pointer"
         ></Link>
       </div>
