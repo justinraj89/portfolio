@@ -1,3 +1,4 @@
+'use client'
 import { HiOutlineBookOpen } from "react-icons/hi";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -13,16 +14,27 @@ import { GiCardAceSpades } from "react-icons/gi";
 import { SiPython } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
+import { motion } from "framer-motion";
 //=============================================
 
 function page() {
   return (
     <div className="flex flex-col h-fit  pt-8 lg:pt-12 pb-8">
-      <h1 className="font-spaceMono text-gray-300 text-2xl mb-8 md:text-4xl lg:text-4xl text-center lg:mb-8 animate__animated animate__fadeIn">
+      <motion.h1 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ delay: 0.2, duration: 0.3 }}
+      className="font-spaceMono text-gray-300 text-2xl mb-8 md:text-4xl lg:text-4xl text-center lg:mb-8">
         Here are some of my projects
-      </h1>
+      </motion.h1>
 
-      <div className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 md:grid md:grid-cols-2 mx-auto animate__animated animate__fadeInUp">
+      <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ delay: 0.4, duration: 0.3 }}
+      className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 md:grid md:grid-cols-2 mx-auto">
         <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
           <h2 className="text-3xl font-bold text-center font-spaceMono">
             Moovie
@@ -215,7 +227,7 @@ function page() {
             </div>
           </a>
         </article>
-      </div>
+      </motion.div>
     </div>
   );
 }

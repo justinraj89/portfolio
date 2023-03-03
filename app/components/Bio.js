@@ -13,7 +13,7 @@ function Bio() {
         className="px-4 lg:px-0 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
         id="home"
       >
-        <div className="md:mt-4 lg:mt-32 lg:col-span-1">
+        <div className="md:mt-2 lg:mt-32 lg:col-span-1">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

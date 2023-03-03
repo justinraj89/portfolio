@@ -1,5 +1,4 @@
 import "./globals.css";
-import "animate.css";
 import { Space_Mono } from "@next/font/google";
 import Nav from "./components/Nav";
 //===============================================
