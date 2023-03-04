@@ -84,7 +84,7 @@ function Bio() {
           whileInView={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           className="lg:col-span-1 mt-6 lg:mt-2 flex lg:justify-end justify-center px-4"
         >
           <img

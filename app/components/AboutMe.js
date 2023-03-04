@@ -14,7 +14,7 @@ function AboutMe() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 1 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           className="px-4 flex lg:justify-start justify-center lg-col-span-1"
         >
           <img
@@ -29,7 +29,7 @@ function AboutMe() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 1 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             className="md:text-5xl lg:text-6xl lg:text-right text-center text-4xl text-gray-400 mt-8 lg:mt-0"
           >
             about me
@@ -39,7 +39,7 @@ function AboutMe() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             className="text-xl md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center"
           >
             I am a web developer with a passion for creating smooth, intutive
@@ -49,7 +49,7 @@ function AboutMe() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             className="text-xl md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center mb-4 lg:mb-0"
           >
             When I'm not coding, I love drawing, hiking, making music, and
