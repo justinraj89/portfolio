@@ -36,6 +36,8 @@ function page() {
       transition={{ delay: 0.6, duration: 0.3 }}
       className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 md:grid md:grid-cols-2 mx-auto">
 
+
+      
         <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
           <h2 className="text-3xl font-bold text-center font-spaceMono">
             Moovie
@@ -73,6 +75,34 @@ function page() {
 
         <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
           <h2 className="text-3xl font-bold text-center font-spaceMono">
+            Dictionary
+          </h2>
+          <div className="flex justify-center">
+            <HiOutlineBookOpen className="h-24 w-24 text-gray-300" />
+          </div>
+          <p className="pt-4 font-spaceMono text-center">
+            Dictionary application built using Nextjs and Tailwind CSS. Word
+            data is provided through 3rd party API (dictionaryapi.dev). Darkmode
+            feature implemented using Next/Themes.
+          </p>
+          <div className="flex justify-evenly pt-4 pb-4">
+            <SiNextdotjs className="h-8 w-8 text-gray-100" />
+            <SiReact className="h-8 w-8 text-sky-400" />
+            <SiTailwindcss className="h-8 w-8 text-teal-400" />
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/justinraj89/dictionary-next13"
+          >
+            <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
+              Github Repo
+            </div>
+          </a>
+        </article>
+
+        <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
+          <h2 className="text-3xl font-bold text-center font-spaceMono">
             Doodle-Gram
           </h2>
           <div className="flex justify-center">
@@ -97,34 +127,6 @@ function page() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/justinraj89/Doodle-Gram"
-          >
-            <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
-              Github Repo
-            </div>
-          </a>
-        </article>
-
-        <article className="text-gray-300 shadow-xl drop-shadow-lg p-6 w-80 rounded-lg mb-4 lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300">
-          <h2 className="text-3xl font-bold text-center font-spaceMono">
-            Dictionary
-          </h2>
-          <div className="flex justify-center">
-            <HiOutlineBookOpen className="h-24 w-24 text-gray-300" />
-          </div>
-          <p className="pt-4 font-spaceMono text-center">
-            Dictionary application built using Nextjs and Tailwind CSS. Word
-            data is provided through 3rd party API (dictionaryapi.dev). Darkmode
-            feature implemented using Next/Themes.
-          </p>
-          <div className="flex justify-evenly pt-4 pb-4">
-            <SiNextdotjs className="h-8 w-8 text-gray-100" />
-            <SiReact className="h-8 w-8 text-sky-400" />
-            <SiTailwindcss className="h-8 w-8 text-teal-400" />
-          </div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/justinraj89/dictionary-next13"
           >
             <div className="text-lg font-spaceMono text-blue-300 hover:text-blue-400 font-semibold text-center">
               Github Repo
