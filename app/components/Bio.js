@@ -15,7 +15,7 @@ function Bio() {
         className="px-4 lg:px-0 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
         id="home"
       >
-        <div className="md:mt-2 lg:mt-32 lg:col-span-1">
+        <div className="md:mt-8 lg:mt-32 lg:col-span-1">
           <div className="text-gray-300 font-spaceMono text-3xl md:text-5xl lg:text-5xl font-bold text-center lg:text-left lg:px-4">
             <Typewriter
               onInit={(typewriter) => {
@@ -55,7 +55,7 @@ function Bio() {
               </a>
             </li>
 
-            <li className="lg:hover:text-gray-500 lg:hover:text-gray-500 lg:transition lg:ease-in-out lg:delay-150 lg:hover:scale-110 lg:duration-300">
+            <li className="lg:hover:text-gray-500 lg:transition lg:ease-in-out lg:delay-150 lg:hover:scale-110 lg:duration-300">
               <button
                 onClick={() =>
                   (window.location = "mailto:rajewskijustin@gmail.com")
@@ -66,7 +66,7 @@ function Bio() {
               </button>
             </li>
 
-            <li className="lg:hover:text-gray-500 lg:hover:text-gray-500 lg:transition lg:ease-in-out lg:delay-150 lg:hover:scale-110 lg:duration-300">
+            <li className="lg:hover:text-gray-500 lg:transition lg:ease-in-out lg:delay-150 lg:hover:scale-110 lg:duration-300">
               <a
                 href="https://www.linkedin.com/in/justinrajewski89/"
                 target="_blank"

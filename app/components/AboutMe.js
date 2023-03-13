@@ -5,9 +5,9 @@ import { Link } from "react-scroll";
 
 function AboutMe() {
   return (
-    <div>
+    <div className="h-screen md:h-screen lg:h-fit">
       <div
-        className="lg:mt-24 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
+        className="lg:mt-32 md:mt-32 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
         id="about"
       >
         <motion.div
@@ -38,7 +38,7 @@ function AboutMe() {
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: true }}
             className="text-xl md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center"
           >
@@ -48,7 +48,7 @@ function AboutMe() {
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: true }}
             className="text-xl md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center mb-4 lg:mb-0"
           >
