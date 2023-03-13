@@ -6,7 +6,7 @@ function Nav({ navbarOpen, setNavbarOpen}) {
 
   return (
     <div className={`sticky top-0 h-16 flex px-8 lg:px-0
-    justify-between md:justify-between lg:justify-between items-center z-20 ${navbarOpen ? 'bg-black border-none' : 'backdrop-blur border-b-2 border-zinc-800'}`}>
+    justify-between md:justify-between lg:justify-between items-center z-20 ${navbarOpen ? 'bg-zinc-900 border-none' : 'backdrop-blur border-b-2 border-zinc-800'}`}>
       <Link
         href="/"
         className="px-4 lg:px-8 hover:cursor-pointer lg:transition lg:ease-in-out lg:delay-100 lg:hover:scale-105 lg:duration-300"
