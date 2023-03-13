@@ -1,6 +1,9 @@
+'use client'
+import { useState } from "react";
 import "./globals.css";
 import { Space_Mono } from "@next/font/google";
 import Nav from "./components/Nav";
+import MenuOverlay from "./components/MenuOverlay";
 //===============================================
 
 const spaceMono = Space_Mono({
@@ -10,12 +13,14 @@ const spaceMono = Space_Mono({
 });
 
 export default function RootLayout({ children }) {
+  const [navbarOpen, setNavbarOpen] = useState(false)
   return (
     <html lang="en" className={spaceMono.variable}>
       <body className="bg-zinc-900 overflow-y-scroll">
       <div className="bg"></div>
         <div className="max-w-6xl mx-auto ">
-          <Nav />
+          <Nav navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
+          <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/>
           {children}
         </div>
         
@@ -23,4 +28,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
