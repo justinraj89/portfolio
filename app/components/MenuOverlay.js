@@ -8,7 +8,7 @@ function MenuOverlay({ navbarOpen, setNavbarOpen }) {
       }`}
     >
       <ul className="w-full flex justify-center flex-col gap-4">
-        <li className="flex justify-center w-fit self-center leading-8 focus:outline-none py-2 transition-all duration-200 ease-in-out bg-black px-4 rounded">
+        <li className="flex justify-center w-fit self-center leading-8 focus:outline-none py-2 transition-all duration-200 ease-in-out bg-black px-4 rounded-lg">
           <Link
             href="/"
             className="h-full w-full py-2 text-4xl font-spaceMono text-gray-300 hover:text-green-300"
@@ -19,7 +19,7 @@ function MenuOverlay({ navbarOpen, setNavbarOpen }) {
             home
           </Link>
         </li>
-        <li className="flex justify-center w-fit self-center leading-8 focus:outline-none py-2 transition-all duration-200 ease-in-out  bg-black px-4 rounded">
+        <li className="flex justify-center w-fit self-center leading-8 focus:outline-none py-2 transition-all duration-200 ease-in-out  bg-black px-4 rounded-lg">
           <Link
             href="/projects"
             className="h-full w-full py-2 text-4xl font-spaceMono text-gray-300 hover:text-green-300"
@@ -30,7 +30,7 @@ function MenuOverlay({ navbarOpen, setNavbarOpen }) {
             projects
           </Link>
         </li>
-        <li className="flex justify-center w-fit self-center leading-8 focus:outline-none py-2 transition-all duration-200 ease-in-out  bg-black px-4 rounded">
+        <li className="flex justify-center w-fit self-center leading-8 focus:outline-none py-2 transition-all duration-200 ease-in-out  bg-black px-4 rounded-lg">
           <Link
             href="/contact"
             className="h-full w-full py-2 text-4xl font-spaceMono text-gray-300 hover:text-green-300"
