@@ -18,7 +18,7 @@
 ![Contact](https://i.imgur.com/HHkPRWU.png)
 
 ## Mobile View
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjcwOThlOTI4ZTNiMjkwODUwZjUyNGEyZmQ1MDAwYTdkMzkxMmU0MyZjdD1n/SyGRzlvY0Kq5puufUz/giphy.gif" width="400" >
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTMxZmJkNjYyMDYzOWUyMGY0MjU0NTEzZDVkODQ4NDE2YThlYWExZCZjdD1n/6vFD81cwbNyK0tbCuW/giphy.gif" width="400" >
 
 
 
