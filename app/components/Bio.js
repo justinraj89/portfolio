@@ -142,7 +142,6 @@ function Bio() {
           to="about"
           spy={true}
           smooth={true}
-          offset={-110}
           className="scroll-down hidden md:hidden lg:block hover:cursor-pointer hover:text-gray-400"
         >
           <AiOutlineDown className="h-8 w-8"/>
