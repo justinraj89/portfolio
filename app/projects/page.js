@@ -15,6 +15,7 @@ import { SiPython } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { motion } from "framer-motion";
+import GoToTop from "../utils/goToTop";
 //=============================================
 
 function page() {
@@ -232,6 +233,7 @@ function page() {
         </article>
         
       </motion.div>
+      <GoToTop/>
     </div>
   );
 }

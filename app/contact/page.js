@@ -8,6 +8,7 @@ import { RxLinkedinLogo } from "react-icons/rx";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { showToast } from "../utils/toast";
+import GoToTop from "../utils/goToTop";
 //=======================================
 
 function page() {
@@ -166,6 +167,7 @@ function page() {
           </a>
         </div>
       </motion.div>
+      <GoToTop/>
       <ToastContainer />
     </>
   );

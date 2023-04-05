@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import GoToTop from "../utils/goToTop";
 //=======================================
 
 function AboutMe() {
@@ -69,6 +70,7 @@ function AboutMe() {
           Back to top
         </Link>
       </div>
+      <GoToTop/>
     </div>
   );
 }

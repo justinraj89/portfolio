@@ -1,8 +1,35 @@
 "use client";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 //==================================================
 
 function Nav({ navbarOpen, setNavbarOpen }) {
+  const [prevScrollPos, setPrevScrollPos] = useState(10);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+    const scrollDelta = currentScrollPos - prevScrollPos;
+    if (currentScrollPos > 30) {
+      if (scrollDelta > 0) {
+        // Scrolling down
+        setVisible(false);
+      } else if (scrollDelta < 0) {
+        // Scrolling up
+        setVisible(true);
+      }
+    } else if (currentScrollPos >= 0) {
+      // At top of page
+      setVisible(true);
+    }
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
   return (
     <div
       className={`sticky top-0 h-16 flex px-8 lg:px-0
@@ -10,7 +37,7 @@ function Nav({ navbarOpen, setNavbarOpen }) {
       navbarOpen
         ? "bg-zinc-900 border-none"
         : "backdrop-blur border-b-2 border-zinc-800"
-    }`}
+    } ${visible ? 'transition-transform duration-700 transform translate-y-0' : ' transition-transform duration-700 transform -translate-y-full'}`}
     >
       <Link
         href="/"
