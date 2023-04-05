@@ -11,11 +11,11 @@ function Nav({ navbarOpen, setNavbarOpen }) {
     const currentScrollPos = window.scrollY;
     const scrollDelta = currentScrollPos - prevScrollPos;
     if (currentScrollPos > 30) {
-      if (scrollDelta > 0) {
+      if (scrollDelta > 0 && !navbarOpen) { // check if navbar is open or not
         // Scrolling down
         setVisible(false);
-      } else if (scrollDelta < 0) {
-        // Scrolling up
+      } else if (scrollDelta < 0 || navbarOpen) { // check if navbar is open or user is scrolling up
+        // Scrolling up or navbar open
         setVisible(true);
       }
     } else if (currentScrollPos >= 0) {
@@ -24,6 +24,7 @@ function Nav({ navbarOpen, setNavbarOpen }) {
     }
     setPrevScrollPos(currentScrollPos);
   };
+
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
