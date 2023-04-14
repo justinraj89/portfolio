@@ -6,7 +6,6 @@ import Project from "../components/Project";
 //=============================================
 
 function page() {
-
   return (
     <div className="flex flex-col h-fit  pt-8 lg:pt-12 pb-8">
       <motion.h1
@@ -26,9 +25,16 @@ function page() {
         transition={{ delay: 0.6, duration: 0.3 }}
         className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 md:grid md:grid-cols-2 mx-auto"
       >
-       {ProjectData.map((project) => (
-          <Project projectName={project.projectName} logo={project.logo} description={project.description} gitHubLink={project.gitHubLink} deployLink={project.deployLink} technologiesUsed={project.technologiesUsed}/>
-       ))}
+        {ProjectData.map((project) => (
+          <Project
+            projectName={project.projectName}
+            logo={project.logo}
+            description={project.description}
+            gitHubLink={project.gitHubLink}
+            deployLink={project.deployLink}
+            technologiesUsed={project.technologiesUsed}
+          />
+        ))}
       </motion.div>
       <GoToTop />
     </div>
@@ -36,11 +42,3 @@ function page() {
 }
 
 export default page;
-
-
-
-
-
-
-
-

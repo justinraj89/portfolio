@@ -167,7 +167,7 @@ function page() {
           </a>
         </div>
       </motion.div>
-      <GoToTop/>
+      <GoToTop />
       <ToastContainer />
     </>
   );

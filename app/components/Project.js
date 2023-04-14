@@ -21,6 +21,7 @@ function Project({
   deployLink,
   technologiesUsed,
 }) {
+  
   const technologyLogos = {
     MongoDB: <SiMongodb className="h-8 w-8 text-green-300" />,
     Express: <SiExpress className="h-8 w-8 text-blue-300" />,
