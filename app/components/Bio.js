@@ -33,7 +33,7 @@ function Bio() {
             className="px-4 pt-2 lg:pt-6"
           >
             <p className="text-gray-300 text-xl md:text-3xl lg:text-4xl font-spaceMono tracking-wide text-center md:text-center lg:text-left">
-              Los Angeles based web developer
+              Los Angeles based web developer.
             </p>
           </motion.div>
 
