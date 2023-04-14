@@ -8,7 +8,7 @@ function AboutMe() {
   return (
     <div className="h-screen md:h-screen lg:h-fit">
       <div
-        className="lg:mt-32 md:mt-32 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
+        className="lg:mt-8 md:mt-32 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
         id="about"
       >
         <motion.div
@@ -59,7 +59,7 @@ function AboutMe() {
         </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-6">
         <Link
           to="home"
           spy={true}
