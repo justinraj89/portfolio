@@ -10,7 +10,7 @@ function Nav({ navbarOpen, setNavbarOpen }) {
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
     const scrollDelta = currentScrollPos - prevScrollPos;
-    if (currentScrollPos > 30) {
+    if (currentScrollPos > 40) {
       if (scrollDelta > 0 && !navbarOpen) { // check if navbar is open or not
         // Scrolling down
         setVisible(false);
@@ -77,13 +77,13 @@ function Nav({ navbarOpen, setNavbarOpen }) {
       <nav className="lg:flex hidden">
         <Link
           href="/projects"
-          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-300 hover:text-gray-400 transition ease-in-out delay-100 duration-300"
+          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-300 hover:text-gray-400 transition ease-in-out duration-300"
         >
           Projects
         </Link>
         <Link
           href="/contact"
-          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-300 hover:text-gray-400 transition ease-in-out delay-100 duration-300"
+          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-300 hover:text-gray-400 transition ease-in-out duration-300"
         >
           Contact
         </Link>
