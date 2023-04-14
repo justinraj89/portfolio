@@ -12,7 +12,7 @@ function Bio() {
   return (
     <div className="md:h-screen lg:h-screen">
       <div
-        className="px-4 lg:px-0 lg:grid lg:grid-cols-2 mt-6 flex flex-col"
+        className="px-4 lg:px-0 lg:grid lg:grid-cols-2 mt-6 md:mt-0 flex flex-col"
         id="home"
       >
         <div className="md:mt-8 lg:mt-32 lg:col-span-1">
