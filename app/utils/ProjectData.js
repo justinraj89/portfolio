@@ -8,6 +8,14 @@ export const ProjectData = [
         technologiesUsed: ['MongoDB', 'Express', 'React', 'Node']
     },
     {
+        projectName: 'Thought Cloud',
+        logo: 'https://i.imgur.com/xkgioAk.png',
+        description: 'Thought Cloud is a fullstack application built using React, Tailwind, and Firebase. This application helped me learn how to use Firebase for user authentication and using their Firestore for database.',
+        gitHubLink: 'https://github.com/justinraj89/thoughtCloud',
+        deployLink: 'https://main.d2c067vz02drsd.amplifyapp.com/',
+        technologiesUsed: ['React', 'Tailwind', 'Firebase']
+    },
+    {
         projectName: 'Dictionary',
         logo: 'https://i.imgur.com/t5OwXJA.png',
         description: 'Dictionary application built using Nextjs and Tailwind CSS. Word data is provided through 3rd party API (dictionaryapi.dev). Darkmode feature implemented using Next/Themes.',        

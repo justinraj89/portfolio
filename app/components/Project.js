@@ -11,6 +11,7 @@ import { SiJavascript } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
+import { SiFirebase } from "react-icons/si"
 //=======================================================
 
 function Project({
@@ -36,6 +37,7 @@ function Project({
     Python: <SiPython className="h-9 w-9 text-yellow-400" />,
     Django: <SiDjango className="h-8 w-8 text-emerald-800" />,
     PostgreSQL: <SiPostgresql className="h-8 w-8 text-sky-500" />,
+    Firebase : <SiFirebase className="h-8 w-8 text-yellow-500"/>
   };
 
   return (
