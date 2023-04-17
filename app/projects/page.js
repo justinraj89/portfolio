@@ -23,7 +23,7 @@ function page() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ delay: 0.6, duration: 0.3 }}
-        className="block lg:grid lg:grid-cols-3 lg:justify-between lg:gap-8 md:grid md:grid-cols-2 mx-auto"
+        className="block lg:flex lg:flex-wrap lg:justify-center lg:gap-12 md:grid md:grid-cols-2 mx-auto "
       >
         {ProjectData.map((project) => (
           <Project
@@ -42,3 +42,5 @@ function page() {
 }
 
 export default page;
+
+
