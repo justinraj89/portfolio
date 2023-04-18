@@ -6,8 +6,13 @@ import { Link } from "react-scroll";
 
 function CurrentTech() {
   return (
-    <main className="mt-16 lg:mt-40 text-center font-spaceMono px-4" id='currentTech'>
-     <h1 className="text-gray-400 text-3xl md:text-4xl lg:text-5xl pb-10 lg:pb-16">current tech stack</h1>
+    <main
+      className="mt-16 lg:mt-40 text-center font-spaceMono px-4"
+      id="currentTech"
+    >
+      <h1 className="text-gray-400 text-3xl md:text-4xl lg:text-5xl pb-10 lg:pb-16">
+        current tech stack
+      </h1>
       <section className="flex flex-col lg:flex-row justify-around mb-30">
         <div className="w-80 lg:w-[25rem] mx-auto lg:mx-0 pb-12 lg:pb-0">
           <h1 className="text-3xl md:text-4xl lg:text-4xl text-gray-300 pb-8 text-center underline">

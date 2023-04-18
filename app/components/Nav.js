@@ -74,19 +74,22 @@ function Nav({ navbarOpen, setNavbarOpen }) {
         </div>
       </button>
 
-      <nav className="lg:flex hidden">
+      <nav className="lg:flex hidden font-spaceMono text-xl text-gray-300">
         <Link
           href="/projects"
-          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-300 hover:text-gray-400 transition ease-in-out duration-300"
+          className="lg:px-6  hover:text-gray-400 transition ease-in-out duration-300"
         >
           Projects
         </Link>
         <Link
           href="/contact"
-          className="px-4 lg:px-8 font-spaceMono text-xl text-gray-300 hover:text-gray-400 transition ease-in-out duration-300"
+          className="lg:px-6  hover:text-gray-400 transition ease-in-out duration-300"
         >
           Contact
         </Link>
+        <a href="/Justin_Rajewski_Resume.pdf" download>
+          <button className="lg:px-6  hover:text-gray-400 transition ease-in-out duration-300">Resume</button>
+        </a>
       </nav>
     </div>
   );
