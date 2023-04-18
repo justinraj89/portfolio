@@ -37,6 +37,20 @@ function Bio() {
             </p>
           </motion.div>
 
+          <motion.a
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ delay: 0.6, duration: 0.8 }}
+            viewport={{ once: true }}
+            href="/Justin-Rajewski-Resume.pdf"
+            download
+          >
+            <button className="px-4 pt-4 font-spaceMono text-gray-400 hover:text-gray-500 transition ease-in-out duration-300 hidden lg:block">
+              click here to download resume
+            </button>
+          </motion.a>
+
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
