@@ -87,7 +87,7 @@ function Nav({ navbarOpen, setNavbarOpen }) {
         >
           Contact
         </Link>
-        <a href="/Justin_Rajewski_Resume.pdf" download>
+        <a href="/Justin-Rajewski-Resume.pdf" download>
           <button className="lg:px-6  hover:text-gray-400 transition ease-in-out duration-300">Resume</button>
         </a>
       </nav>
