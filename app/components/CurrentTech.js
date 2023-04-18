@@ -10,15 +10,9 @@ function CurrentTech() {
      <h1 className="text-gray-400 text-3xl md:text-4xl lg:text-5xl pb-10 lg:pb-16">current tech stack</h1>
       <section className="flex flex-col lg:flex-row justify-around mb-30">
         <div className="w-80 lg:w-[25rem] mx-auto lg:mx-0 pb-12 lg:pb-0">
-          <motion.h1
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.3, delay: 0.3 }}
-            viewport={{ once: true }}
-            className="text-3xl md:text-4xl lg:text-4xl text-gray-300 pb-8 text-center underline"
-          >
+          <h1 className="text-3xl md:text-4xl lg:text-4xl text-gray-300 pb-8 text-center underline">
             frontend
-          </motion.h1>
+          </h1>
           <ul className="text-xl md:text-3xl lg:text-3xl text-gray-300 flex flex-col px-4">
             {frontEndTech.map((tech, i) => (
               <motion.li
@@ -36,15 +30,9 @@ function CurrentTech() {
           </ul>
         </div>
         <div className="w-80 lg:w-[25rem] mx-auto lg:mx-0">
-          <motion.h1
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.3, delay: 0.3 }}
-            viewport={{ once: true }}
-            className="text-3xl md:text-4xl lg:text-4xl text-gray-300 pb-8 text-center underline"
-          >
+          <h1 className="text-3xl md:text-4xl lg:text-4xl text-gray-300 pb-8 text-center underline">
             backend
-          </motion.h1>
+          </h1>
           <ul className="text-xl md:text-3xl lg:text-3xl text-gray-300 flex flex-col w-full px-4 pb-4">
             {backEndTech.map((tech, i) => (
               <motion.li
