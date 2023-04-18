@@ -26,7 +26,7 @@ function AboutMe() {
           />
         </motion.div>
 
-        <div className="lg:col-span-1 font-spaceMono px-4">
+        <div className="lg:col-span-1 font-spaceMono px-6">
           <motion.h1
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -42,7 +42,7 @@ function AboutMe() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: true }}
-            className="text-xl md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center"
+            className="text-lg md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center"
           >
             I am a web developer with a passion for creating smooth, intutive
             user experiences.
@@ -52,7 +52,7 @@ function AboutMe() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: true }}
-            className="text-xl md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center mb-4 lg:mb-0"
+            className="text-lg md:text-2xl lg:text-3xl lg:text-right pt-8 text-gray-300 text-center mb-4 lg:mb-0"
           >
             When I'm not coding, I love drawing, hiking, making music, and
             skateboarding.
