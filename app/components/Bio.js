@@ -46,7 +46,7 @@ function Bio() {
             href="/Justin-Rajewski-Resume.pdf"
             download
           >
-            <button className="px-4 pt-4 font-spaceMono text-gray-400 hover:text-gray-500 transition ease-in-out duration-300 hidden lg:block">
+            <button className="px-4 pt-4 text-[18px] font-spaceMono text-gray-400 hover:text-gray-500 transition ease-in-out duration-300 hidden lg:block">
               click here to download resume
             </button>
           </motion.a>
