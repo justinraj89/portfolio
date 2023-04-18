@@ -1,6 +1,6 @@
 import Bio from "./components/Bio";
 import AboutMe from "./components/AboutMe";
-
+import CurrentTech from "./components/CurrentTech";
 //=============================================================
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Bio />
       <AboutMe />
+      <CurrentTech />
     </>
   );
 }

@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import GoToTop from "../utils/goToTop";
+import { AiOutlineDown } from "react-icons/ai"
 //=======================================
 
 function AboutMe() {
@@ -59,15 +60,15 @@ function AboutMe() {
         </div>
       </div>
 
-      <div className="flex justify-center mb-6">
-        <Link
-          to="home"
+      <div className="flex justify-center mb-6 pt-36">
+      <Link
+          to="currentTech"
           spy={true}
           smooth={true}
-          offset={-100}
-          className="font-spaceMono text-xl mt-8 mb-8 lg:mt-28 text-gray-300 flex justify-center hover:cursor-pointer w-fit hover:text-gray-400"
+          offset={-50}
+          className="scroll-down hidden md:hidden lg:block hover:cursor-pointer text-gray-300 hover:text-gray-400"
         >
-          Back to top
+          <AiOutlineDown className="h-8 w-8"/>
         </Link>
       </div>
       <GoToTop/>
