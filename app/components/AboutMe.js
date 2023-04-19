@@ -66,7 +66,7 @@ function AboutMe() {
           spy={true}
           smooth={true}
           offset={-50}
-          className="scroll-down hidden md:hidden lg:block hover:cursor-pointer text-gray-300 hover:text-gray-400"
+          className="scroll-down hidden md:hidden lg:block hover:cursor-pointer text-gray-300 hover:text-gray-400 transition ease-in-out duration-300"
         >
           <AiOutlineDown className="h-8 w-8"/>
         </Link>

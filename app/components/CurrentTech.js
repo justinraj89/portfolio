@@ -61,7 +61,7 @@ function CurrentTech() {
           spy={true}
           smooth={true}
           offset={-100}
-          className="font-spaceMono text-xl mt-8 mb-8 lg:mt-28 text-gray-300 flex justify-center hover:cursor-pointer w-fit hover:text-gray-400"
+          className="font-spaceMono text-xl mt-8 mb-8 lg:mt-28 text-gray-300 hover:text-gray-400 transition ease-in-out duration-300 flex justify-center hover:cursor-pointer w-fit"
         >
           back to top
         </Link>
