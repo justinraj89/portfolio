@@ -21,7 +21,7 @@ export const ProjectData = [
         description: 'Dictionary application built using Nextjs and Tailwind CSS. Word data is provided through 3rd party API (dictionaryapi.dev). Darkmode feature implemented using Next/Themes.',        
         gitHubLink: 'https://github.com/justinraj89/dictionary-next13',
         deployLink: 'https://dictionary-nextjs.herokuapp.com/',
-        technologiesUsed: ['Next', 'React', 'Tailwind']
+        technologiesUsed: ['Next', 'Tailwind']
     },
     {
         projectName: 'Doodle-Gram',
