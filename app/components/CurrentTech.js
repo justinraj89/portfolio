@@ -1,7 +1,6 @@
-"use client";
+'use client'
 import { frontEndTech } from "../utils/CurrentTechData";
 import { backEndTech } from "../utils/CurrentTechData";
-import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
 function CurrentTech() {
@@ -20,17 +19,13 @@ function CurrentTech() {
           </h1>
           <ul className="text-xl md:text-3xl lg:text-3xl text-gray-300 flex flex-col px-4">
             {frontEndTech.map((tech, i) => (
-              <motion.li
+              <li
                 key={i}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.3, delay: i * 0.1 }}
-                viewport={{ once: true }}
                 className="flex items-center justify-between py-3 gap-8 lg:transition lg:ease-in-out lg:hover:scale-110 lg:duration-300"
               >
                 {tech.name}
                 {tech.logo}
-              </motion.li>
+              </li>
             ))}
           </ul>
         </div>
@@ -40,17 +35,13 @@ function CurrentTech() {
           </h1>
           <ul className="text-xl md:text-3xl lg:text-3xl text-gray-300 flex flex-col w-full px-4 pb-4">
             {backEndTech.map((tech, i) => (
-              <motion.li
+              <li
                 key={i}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.3, delay: i * 0.1 }}
-                viewport={{ once: true }}
                 className="flex items-center justify-between py-3 gap-8  lg:transition lg:ease-in-out lg:hover:scale-110 lg:duration-300"
               >
                 {tech.name}
                 {tech.logo}
-              </motion.li>
+              </li>
             ))}
           </ul>
         </div>
