@@ -40,6 +40,14 @@ export const ProjectData = [
         technologiesUsed: ['StyledComponents', 'React', 'HTML']
     },
     {
+        projectName: 'Beat Maker',
+        logo: 'https://i.imgur.com/JuUpkdT.png',
+        description: 'Simple MPC type application where users can play drums by clicking the corresponding keys on their keyboard. I was able to reinforce a lot of my skills using React, and Tailwind CSS, while also learning more about using the Audio API. ',                      
+        gitHubLink: 'https://github.com/justinraj89/beatmaker',
+        deployLink: 'https://beat-maker.herokuapp.com/',
+        technologiesUsed: ['React','Tailwind']
+    },
+    {
         projectName: 'War',
         logo: 'https://i.imgur.com/kHLrqgD.png',
         description: 'This was my first project at General Assemblys SEI program. The Goal was to build a browser game of our choice. I decided to go with the classic card game "War". Application was built with vanilla Javascript, HTML, and CSS.',                      
@@ -55,12 +63,5 @@ export const ProjectData = [
         deployLink: 'https://beastcoastmeme.herokuapp.com/',
         technologiesUsed: ['Python', 'Django', 'PostgreSQL']
     },
-    {
-        projectName: 'Beat Maker',
-        logo: 'https://i.imgur.com/JuUpkdT.png',
-        description: 'Simple MPC type application where users can play drums by clicking the corresponding keys on their keyboard. I was able to reinforce a lot of my skills using React, and Tailwind CSS, while also learning more about using the Audio API. ',                      
-        gitHubLink: 'https://github.com/justinraj89/beatmaker',
-        deployLink: 'https://beat-maker.herokuapp.com/',
-        technologiesUsed: ['React','Tailwind']
-    },
+
 ]
