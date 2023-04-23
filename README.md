@@ -1,6 +1,6 @@
 # Portfolio made using Next js (13), and Tailwind CSS.
 
-## Link to deployed Application [here](https://justin-rajewski.herokuapp.com/)
+## Link to deployed Application [here](https://www.justin-rajewski.com/)
 
 
 ## Screenshots
