@@ -21,7 +21,7 @@ function CurrentTech() {
             {frontEndTech.map((tech, i) => (
               <li
                 key={i}
-                className="flex items-center justify-between py-3 gap-8 lg:transition lg:ease-in-out lg:hover:scale-110 lg:duration-300"
+                className="flex items-center justify-between py-3 gap-8 lg:transition lg:ease-in-out lg:hover:scale-105 lg:duration-300 hover:cursor-default"
               >
                 {tech.name}
                 {tech.logo}
@@ -37,7 +37,7 @@ function CurrentTech() {
             {backEndTech.map((tech, i) => (
               <li
                 key={i}
-                className="flex items-center justify-between py-3 gap-8  lg:transition lg:ease-in-out lg:hover:scale-110 lg:duration-300"
+                className="flex items-center justify-between py-3 gap-8  lg:transition lg:ease-in-out lg:hover:scale-105 lg:duration-300 hover:cursor-default"
               >
                 {tech.name}
                 {tech.logo}
