@@ -25,7 +25,7 @@ function page() {
         transition={{ delay: 0.6, duration: 0.3 }}
         className="block lg:flex lg:flex-wrap lg:justify-center lg:gap-12 md:grid md:grid-cols-2 mx-auto "
       >
-        {ProjectData.map((project) => (
+        {ProjectData.map((project, i) => (
           <Project
             projectName={project.projectName}
             logo={project.logo}
@@ -33,6 +33,7 @@ function page() {
             gitHubLink={project.gitHubLink}
             deployLink={project.deployLink}
             technologiesUsed={project.technologiesUsed}
+            key={i}
           />
         ))}
       </motion.div>

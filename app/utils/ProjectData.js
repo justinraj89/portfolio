@@ -56,6 +56,14 @@ export const ProjectData = [
         technologiesUsed: ['Javascript', 'HTML', 'CSS']
     },
     {
+        projectName: 'React JS Quiz',
+        logo: 'https://i.imgur.com/r7PvKve.png',
+        description: 'This is a simple React JS quiz application I built using Next JS, and Tailwind CSS. I made use of the Context API to keep track of users score, and the current state of the quiz. Application is fully responsive. Deployed with Vercel.',                      
+        gitHubLink: 'https://github.com/justinraj89/quiz-App',
+        deployLink: 'https://quiz-app-lyart-phi.vercel.app/',
+        technologiesUsed: ['Next', 'Tailwind', 'Vercel']
+    },
+    {
         projectName: 'Beastcoast Memes',
         logo: 'https://i.imgur.com/cHFY8Eh.png',
         description: 'This was a group project I worked on at General Assemblys SEI program. Our cohort was broken up into groups of 4 and were tasked with creating a full stack application using Python, Django, and PostgreSQL. My roles on This project were "Database Manager" and "Lead Designer". This was a great learning experience working with a team and using GIT.',                          
